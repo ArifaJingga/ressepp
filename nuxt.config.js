@@ -1,7 +1,8 @@
 export default {
-    // Other configurations...
-    buildModules: [
-      '@nuxtjs/tailwindcss'
-    ]
+  modules: [
+    '@nuxtjs/tailwindcss'
+  ],
+  tailwindcss: {
+    // Konfigurasi khusus TailwindCSS, jika ada
   }
-  
+}
